@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\01 Basic Classes Challenge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +49,7 @@
     <None Include="BasicTypes\03 StringConstruction.csx" />
     <None Include="BasicTypes\04 TypeConversions.csx" />
     <None Include="BasicTypes\05 DateTime.csx" />
+    <None Include="Challenges\01 Functions challenge.csx" />
     <None Include="Collections\01 Array.csx" />
     <None Include="Collections\02 Lists.csx" />
     <None Include="Collections\03 Dictionaries.csx" />
@@ -56,6 +58,10 @@
     <None Include="Flow Control\03 Conditionals.csx" />
     <None Include="Flow Control\04 Switch.csx" />
     <None Include="Flow Control\05 Exceptions.csx" />
+    <None Include="Functions\01 Actions.csx" />
+    <None Include="Functions\02 Functions.csx" />
+    <None Include="OOP\01 Principles.csx" />
+    <None Include="OOP\02 Basic Classes.csx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
