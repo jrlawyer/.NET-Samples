@@ -7,6 +7,12 @@ var lastName = "Lawyer";
 
 var s1 = firstName + " " + lastName;
 
+var firstName = "James";
+var lastName = "Alexander";
+
+
+var s1 = firstName + " " + lastName;
+
 //StringBuilder
 var s2 =
     new System.Text.StringBuilder()
@@ -22,6 +28,14 @@ var s2 =
         .Append(lastName)
         .ToString();
 
+var s2 =
+    new StringBuilder()
+    .Append(firstName)
+    .Append(" ")
+    .Append(lastName)
+    .ToString();
+
+
 //Format String
 
 var s3 = 
@@ -33,5 +47,9 @@ var s3 =
 
 //String Interpolation
 var s4 = $"{firstName} {lastName}";
+
+var s5 = $"{firstName} {lastName}";
+
+
 
    

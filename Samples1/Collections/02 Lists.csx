@@ -29,4 +29,7 @@ Indy.Add("Tony Kanaan");
 
 var indyList = new List<string> { "Alexander Rossi", "Carlos Munoz", "Josef Newgarden", "Tony Kanaan" };
 Console.WriteLine (indyList[0]);
+Console.WriteLine(indyList);
+
+
 

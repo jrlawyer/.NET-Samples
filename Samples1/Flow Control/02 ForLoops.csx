@@ -19,6 +19,21 @@
 
 //string word = "Aword"
 
+//create a list and have it print out names
+
+var family = new List<string>
+{
+    "James",
+    "Judy",
+    "Tony",
+    "Steph",
+};
+
+for (var x = 0; x < family.Count; x++)
+{
+    var name = family[x];
+    Console.WriteLine(name);
+}
 var name = new List<string>
 {
     "Jen",
@@ -29,6 +44,10 @@ var name = new List<string>
     "Judy",
     "Tony"
 };
+
+foreach (var n in name)
+    Console.WriteLine(n);
+
 
 foreach (var n in name)
 {

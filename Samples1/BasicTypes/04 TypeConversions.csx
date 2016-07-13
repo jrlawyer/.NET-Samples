@@ -60,3 +60,9 @@ Console.WriteLine ("I was born in" + " " + year);
 var y = year.GetType();
 
 var t = s.GetType();
+
+var year = int.Parse("2010");
+
+Console.WriteLine("James and I got married in" + " " + year);
+
+

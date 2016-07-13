@@ -1,9 +1,13 @@
 ﻿using System;
 
-public abstract class Person
+public class Person
 {
     private string _firstName;
     private string _lastName;
+    
+    //database where you need a person(first name and last name)
+    //you'd be entering in required data(first name and last name) to create
+    //an instance of this person in said database.  
 
     public Person(string firstName, string lastName)
     {
@@ -21,10 +25,10 @@ public abstract class Person
     public string LastName
     {
         get { return _lastName; }
-        set { _lastName = value.Trim; }
+        set { _lastName = value.Trim(); }
     }
 
-    public char MiddleInitial { get; set; }
+    //public char MiddleInitial { get; set; }
 
     public override string ToString()
     {
@@ -32,6 +36,7 @@ public abstract class Person
         return $"{LastName}, {FirstName}";
     }
 }
+
 
 //var p = new Person();
 //p.FirstName = "Jennifer";
@@ -48,7 +53,7 @@ public abstract class Person
 
 
 var p =
-    new Person("Dave, Fancher")
+    new Person("Dave", "Fancher");
     {
         MiddleInitial = 'W'
     };
@@ -84,5 +89,24 @@ var s = new Student(1, "Nadia", "Francher");
 
 
 
+//Classes Bronze Challenge:
 
+public class MobilePhone
+{
+    public MobilePhone(string make, string model)
+    {
+        Make = make;
+        Model = model;
+    }
 
+    public string Make { get; set; }
+
+    public string Model { get; set; }
+
+    public override string ToString()
+    {
+        return $"{Make}, {Model}";
+    }
+}
+
+var p = new MobilePhone("iphone", "5");

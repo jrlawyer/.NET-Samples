@@ -50,6 +50,7 @@
     <None Include="BasicTypes\04 TypeConversions.csx" />
     <None Include="BasicTypes\05 DateTime.csx" />
     <None Include="Challenges\01 Functions challenge.csx" />
+    <None Include="Challenges\01 Interfaces Challenge.csx" />
     <None Include="Collections\01 Array.csx" />
     <None Include="Collections\02 Lists.csx" />
     <None Include="Collections\03 Dictionaries.csx" />
@@ -62,6 +63,9 @@
     <None Include="Functions\02 Functions.csx" />
     <None Include="OOP\01 Principles.csx" />
     <None Include="OOP\02 Basic Classes.csx" />
+    <None Include="OOP\03 Static classes.csx" />
+    <None Include="OOP\04 Interfaces.csx" />
+    <None Include="OOP\Controls.csx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

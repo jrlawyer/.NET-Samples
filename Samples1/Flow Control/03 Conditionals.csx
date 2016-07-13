@@ -3,7 +3,7 @@ var x = 15;
 
 if (x <= 20)
 {
-    Console.WriteLine("x is 20");
+    Console.WriteLine("x is not 20");
 }
 else if(x == 20)
 {

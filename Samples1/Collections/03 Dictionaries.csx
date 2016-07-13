@@ -32,6 +32,14 @@ award[2000];
 award[2002];
 award[2004];
 
+var age =
+    new Dictionary<string, int>();
+age.Add("Jen", 33);
+age.Add("Bob", 34);
+
+Console.WriteLine(age["Jen"]);
+
+
 
 var winners =
     new Dictionary<int, string[]>;
